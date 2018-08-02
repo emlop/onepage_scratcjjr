@@ -42,10 +42,6 @@ img {
   grid-gap: 20px;
 }
 
-h4 {
-  text-align: center;
-}
-
 /* navigation styles start here */
 
 .main-nav ul {
@@ -104,6 +100,29 @@ h4 {
   text-align: center;
 }
 
+/* about page */
+
+.about {
+  grid-area: showcase;
+  min-height: 400px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: baseline;
+  box-shadow: var(--shadow);
+}
+
+.about p {
+  color: var(--dark);
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  color: var(--primary);
+}
+
 /* top box */
 
 .top-box {
@@ -113,10 +132,6 @@ h4 {
   justify-items: center;
   box-shadow: var(--shadow);
   padding: 1.5rem;
-}
-
-.top-box .icon {
-  font-size: 2.5rem;
 }
 
 .top-box-a {
@@ -153,7 +168,7 @@ h4 {
   padding: 3rem;
 }
 
-/* portfolio section */
+/* gallery section */
 
 .gallery {
   display: grid;
