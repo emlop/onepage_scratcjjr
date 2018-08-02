@@ -77,6 +77,15 @@ img {
   grid-template-areas: 'showcase showcase top-box-a' 'showcase showcase top-box-b'
 }
 
+.learn {
+  background: var(--primary);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
 /* showcase */
 
 .showcase {
@@ -121,6 +130,10 @@ img {
 
 h2 {
   color: var(--primary);
+}
+
+h4 {
+  text-transform: uppercase;
 }
 
 /* top box */
