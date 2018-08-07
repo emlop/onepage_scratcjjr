@@ -147,8 +147,6 @@ h4 {
   text-align: center;
 }
 
-p {}
-
 /* top box */
 
 .top-box {
@@ -192,6 +190,17 @@ p {}
   grid-gap: 50px;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
+}
+
+.info-head h2 {
+  color: var(--light);
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.info-head p {
+  text-align: center;
+  /* margin: 0px 0px; */
 }
 
 /* gallery section */
